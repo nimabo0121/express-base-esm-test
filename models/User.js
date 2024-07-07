@@ -43,14 +43,6 @@ export default async function (sequelize) {
         type: DataTypes.STRING,
         allowNull: true,
       },
-      postcode: {
-        type: DataTypes.STRING,
-        allowNull: true,
-      },
-      address: {
-        type: DataTypes.STRING,
-        allowNull: true,
-      },
       google_uid: {
         type: DataTypes.STRING,
         allowNull: true,
